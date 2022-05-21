@@ -74,3 +74,14 @@ body {
 
 
 /* Sections einde */
+
+
+/* Footer */
+
+.footer {
+  background-color: black;
+  padding: 50px;
+  height: 200px;
+}
+
+/* Footer einde */
