@@ -1,6 +1,6 @@
 
 
-function codeAddress() {
+function onStart() {
   window.scrollTo({
     top: 2700,
   });
