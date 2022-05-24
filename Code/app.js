@@ -2,6 +2,6 @@
 
 function onStart() {
   window.scrollTo({
-    top: 2700,
+    top: 3000,
   });
 }
