@@ -1,76 +1,97 @@
-body {
-    margin: 0;
-    padding: 0;
-    height: 500vh;
+* {
+  padding: 0;
+  margin: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
 
 /* Header */
 
 .header {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-top: -20px;
 }
 
 .fullscreen-video-wrap {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110vh;
+  overflow: hidden;
 }
 
 .fullscreen-video-wrap video {
-    min-width: 100%;
-    min-height: 100%;
-} 
+  min-width: 100%;
+  min-height: 100%;
+}
 
 /* Header einde */
 
 
 /* Sections */
 
-  
-  .section-container {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 99990;
-  }
-  .section {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    line-height: 35px;
-    text-transform: uppercase;
-  }
-  
-  #section-1 {
-    background-color: pink;
-  }
+.section {
+  padding: 20px 0;
+}
 
-  #section-2 {
-    background-color: #e8e8e8;
-  }
+.section-a {
+  height: 100vh;
+  width: 100vw;
+  background: blue;
+  color: white;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
 
-  #section-3 {
-    background-color: red;
-  }
 
-  #section-4 {
-    background-color: pink;
-  }
+.section-b {
+  background: red;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
 
-  #section-5 {
-    background-color: yellow;
-  }
-  
+.section-c {
+  background: green;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
 
+.section-d {
+  background: pink;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0; 
+  z-index: 1;
+}
+
+.section-e {
+  background: orange;
+  color: #fff;
+  height: 110vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1;
+} 
 
 /* Sections einde */

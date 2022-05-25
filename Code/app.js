@@ -1,3 +1,7 @@
-$(window).on("scroll", function () {
-    $(".section-container").css("bottom", $(window).scrollTop() * -1);
+
+
+function onStart() {
+  window.scrollTo({
+    top: 3000,
   });
+}
