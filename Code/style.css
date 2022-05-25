@@ -95,3 +95,66 @@ body {
 } 
 
 /* Sections einde */
+
+
+/* Loading screen */
+
+.loader-bg{
+  position: fixed;
+  z-index: 999999;
+  background: #212121;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader .dots {
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  transform: scale(0.2);
+  animation: anim 1.2s infinite;
+}
+
+.dots img {
+  width: 130px;
+  height: 130px;
+}
+
+.dots:nth-child(2){
+  animation-delay: 0.2s;
+}
+
+.dots:nth-child(3){
+  animation-delay: 0.4s;
+}
+
+.dots:nth-child(4){
+  animation-delay: 0.8s;
+}
+
+.dots:nth-child(5){
+  animation-delay: 1s;
+}
+
+.dots:nth-child(6 ){
+  animation-delay: 1.2s;
+}
+
+@keyframes anim {
+  0%, 100% {
+      transform: scale(0.2s);
+  }
+
+  50% {
+      transform: scale(1);
+  }
+}
+
+/* Loading screen einde */

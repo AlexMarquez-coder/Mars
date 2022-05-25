@@ -11,6 +11,15 @@
 
 <body onLoad="scrollIntoView()">
 
+  <div class="loader-bg">
+    <div class="loader">
+      <div class="dots"><img src="../File's/Mars_Photo.png"></div>
+      <div class="dots"><img src="../File's/Mars_Photo.png"></div>
+      <div class="dots"><img src="../File's/Mars_Photo.png"></div>
+      <div class="dots"><img src="../File's/Mars_Photo.png"></div>
+      <div class="dots"><img src="../File's/Mars_Photo.png"></div>
+    </div>
+  </div>
 
   <section class="section section-a" id="section-1">
   </section>
@@ -37,6 +46,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="app.js"></script>
+
+  <script>
+    setTimeout(function () {
+      $('.loader-bg').fadeToggle();
+    }, 1500);
+  </script>
+
 </body>
 
 
