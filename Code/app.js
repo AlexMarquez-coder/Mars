@@ -1,7 +1,3 @@
-
-
-function onStart() {
-  window.scrollTo({
-    top: 2390,
-  });
-}
+document.querySelector('#section-4').scrollIntoView({ 
+  
+});
