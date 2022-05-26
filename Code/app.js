@@ -13,7 +13,6 @@ const startVideo = async () => {
 
   }
 }
-
 setTimeout(startVideo, 1600)
 
 
