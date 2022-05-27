@@ -59,7 +59,7 @@ body {
  height: 100%;
 }
 
-.navbar-links ul {
+/* .navbar-links ul {
   margin: 0;
   padding: 0;
   display: flex;
@@ -96,14 +96,14 @@ body {
   width: 100%;
   background-color: white;
   border-radius: 10px;
-}
+} */
 
 @media (max-width: 400px) {
-  .toggle-button {
+  /* .toggle-button {
     display: flex;
   }
 
-  /* .navbar-links {
+  .navbar-links {
     display: none;
     width: 100%;
   }
