@@ -6,6 +6,10 @@
 body {
   overflow-x: hidden;
 }
+html, body{
+  width: 100%;
+  height: 100%;
+}
 
 ::-webkit-scrollbar {
   display: none;
@@ -97,6 +101,10 @@ body {
   background-color: white;
   border-radius: 10px;
 } */
+
+iframe {
+  overflow: hidden;
+}
 
 @media (max-width: 400px) {
   /* .toggle-button {
