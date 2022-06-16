@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="section">
+        
+    </section>
+
+    <p>X of section: <p id="posX">0</p></p>
+    <p>Y of section: <p id="posY">0</p></p>
+    <p>distance from center: <p id="distance">0</p></p>
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("0").style.opacity = 1;
+            document.getElementById("1").style.opacity = 0;
+            document.getElementById("2").style.opacity = 0;
+        });
+
+        function showPicture(index) {
+            document.getElementById("0").style.opacity = 0;
+            document.getElementById("1").style.opacity = 0;
+            document.getElementById("2").style.opacity = 0;
+
+            document.getElementById(index).style.opacity = 1;
+        }
+
+    </script>
+
+    <section style="display: grid; place-items: center;" onmouseenter="showPicture(0)" onmouseleave="showPicture(0)">
+        <img src="https://media.discordapp.net/attachments/928439504145096724/980899343877931079/foto1.png" id="0"/>
+        <img src="https://media.discordapp.net/attachments/928439504145096724/980899719951839292/foto2.png" id="1"/>
+        <img src="https://media.discordapp.net/attachments/928439504145096724/980899720190894170/foto3.png?width=469&height=686" id="2"/>
+        <div onmouseenter="showPicture(1)" onmouseleave="showPicture(1)">
+            <div onmouseenter="showPicture(2)" onmouseleave="showPicture(2)">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

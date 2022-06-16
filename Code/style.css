@@ -7,10 +7,18 @@ body {
     overflow-x: hidden;
 }
 
+<<<<<<< HEAD
 html,
 body {
     width: 100%;
     height: 100%;
+=======
+
+
+html, body{
+  width: 100%;
+  height: 100%;
+>>>>>>> bcd31165a236608e74b1c4a13e3fae2cf1ccf59b
 }
 
 ::-webkit-scrollbar {
@@ -207,6 +215,7 @@ iframe {
 }
 
 .section-e {
+<<<<<<< HEAD
     background: orange;
     color: #fff;
     height: 110vh;
@@ -215,6 +224,52 @@ iframe {
     left: 0;
     z-index: 1;
 }
+
+=======
+  background: #252526;
+  color: #fff;
+  height: 55vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  left: 0;
+  z-index: 1;
+} 
+
+.section-f {
+  background: rgb(64, 255, 0);
+  color: #fff;
+  height: 110vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1;
+} 
+>>>>>>> bcd31165a236608e74b1c4a13e3fae2cf1ccf59b
+
+
+.animation-con  {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.animation  {
+  height: 120px;
+  width: 120px; 
+}
+
+
+
+.animation img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
 
 
 /* Sections einde */
@@ -246,8 +301,13 @@ iframe {
 }
 
 .dots img {
+<<<<<<< HEAD
     width: 130px;
     height: 130px;
+=======
+  width: 100px;
+  height: 100px;
+>>>>>>> bcd31165a236608e74b1c4a13e3fae2cf1ccf59b
 }
 
 .dots:nth-child(2) {
