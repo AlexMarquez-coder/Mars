@@ -117,8 +117,40 @@ body {
 
 /* Header einde */
 
+.section-e .container {
+  position: absolute;
+  left: 4%;
+}
 
+.square {
+  height: 175px;
+  width: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecd6e8;
+}
 
+.circle {
+  display: flex;
+  z-index: 99;
+  background: #252526;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.triangle {
+  width: 0; 
+  margin-left: 10px;
+  height: 0; 
+  border-style: solid;
+  border-width: 16.5px 0 16.5px 30px;
+  border-color: transparent transparent transparent #ecd6e8;
+  
+}
 
 /* Sections */
 
@@ -170,6 +202,7 @@ body {
   color: #fff;
   height: 55vh;
   width: 100vw;
+  cursor: pointer;
   top: 0;
   display: flex;
   justify-content: center;
@@ -180,7 +213,7 @@ body {
 } 
 
 .section-f {
-  background: rgb(64, 255, 0);
+  background: #a8aaab;
   color: black;
   height: 100vh;
   display: flex;
@@ -192,6 +225,21 @@ body {
   left: 0;
   z-index: 1;
 } 
+
+.section-g {
+  background: #a8aaab;
+  color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  justify-content: center;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1;
+} 
+
 
 
 .animation-con  {
