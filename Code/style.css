@@ -208,7 +208,21 @@ iframe {
 }
 
 .section-e {
-  background: orange;
+  background: #252526;
+  color: #fff;
+  height: 55vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  left: 0;
+  z-index: 1;
+} 
+
+.section-f {
+  background: rgb(64, 255, 0);
   color: #fff;
   height: 110vh;
   width: 100vw;
@@ -268,8 +282,8 @@ iframe {
 }
 
 .dots img {
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
 }
 
 .dots:nth-child(2){
