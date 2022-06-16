@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome to Mars</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="./script.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Mars</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
 </head>
 
 <body onLoad="scrollIntoView()">
 
 
-<!--<nav class="navbar">
+    <!--<nav class="navbar">
   <div class="logo">
     <img src="../File's/WTM---Fluidity.png" alt="" >
   </div>
@@ -31,51 +31,58 @@
   </div> 
 </nav> -->
 
-  <div class="loader-bg">
-    <div class="loader">
-      <div class="dots"><img src="../File's/Mars_Photo.png"></div>
-      <div class="dots"><img src="../File's/Mars_Photo.png"></div>
-      <div class="dots"><img src="../File's/Mars_Photo.png"></div>
-      <div class="dots"><img src="../File's/Mars_Photo.png"></div>
-      <div class="dots"><img src="../File's/Mars_Photo.png"></div>
+    <div class="loader-bg">
+        <div class="loader">
+            <div class="dots"><img src="../File's/Mars_Photo.png"></div>
+            <div class="dots"><img src="../File's/Mars_Photo.png"></div>
+            <div class="dots"><img src="../File's/Mars_Photo.png"></div>
+            <div class="dots"><img src="../File's/Mars_Photo.png"></div>
+            <div class="dots"><img src="../File's/Mars_Photo.png"></div>
+        </div>
     </div>
-  </div>
 
-  <section class="section section-a" id="section-1">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.86454725477!2d4.853901815671138!3d52.39100577978997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e28849730d2f%3A0x5dffd675d740eddb!2sMediacollege%20Amsterdam!5e0!3m2!1snl!2snl!4v1653656593843!5m2!1snl!2snl" 
-    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" 
-    referrerpolicy="no-referrer-when-downgrade">
+    <section class="section section-a" id="section-1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.86454725477!2d4.853901815671138!3d52.39100577978997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e28849730d2f%3A0x5dffd675d740eddb!2sMediacollege%20Amsterdam!5e0!3m2!1snl!2snl!4v1653656593843!5m2!1snl!2snl"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
   </iframe>
-  </section>
+    </section>
 
-  <section class="section section-b" id="section-2">
-  </section>
+    <section class="section section-b" id="section-2">
+    </section>
 
-  <section class="section section-c" id="section-3">
-  </section>
+    <section class="section section-c" id="section-3">
+    </section>
 
-  <section class="section section-d" id="section-4">
-    <header class="header container">
-      <div class="fullscreen-video-wrap">
-        <video id="MarsVid" src="../File's/X2Download.com-Marsha Simon & De Wooncoöperatie-(1080p).mp4" type="video/mp4"
-           loop="true" muted="true" ></video>
-      </div>
-      <div class="header-overlay"></div>
-    </header>
-  </section>
+    <section class="section section-d" id="section-4">
+        <header class="header container">
+            <div class="fullscreen-video-wrap">
+                <input type="checkbox" name="un-mute" id="un-mute">
+                <label for="un-mute" class="unmute">
+    <img src="http://upload.wikimedia.org/wikipedia/commons/3/3f/Mute_Icon.svg" alt="Mute_Icon.svg" title="Mute icon">
+</label>
+                <label for="un-mute" class="mute">
+    <img src="http://upload.wikimedia.org/wikipedia/commons/2/21/Speaker_Icon.svg" alt="Speaker_Icon.svg" title="Unmute/speaker icon">
+</label>
+                <video id="MarsVid" src="../File's/X2Download.com-Marsha Simon & De Wooncoöperatie-(1080p).mp4" type="video/mp4" loop="true" muted="true"></video>
 
-  <section class="section section-e" id="section-5">
-  </section>
+            </div>
+            <div class="header-overlay"></div>
+        </header>
+    </section>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="app.js"></script>
 
-  <script>
-    setTimeout(function () {
-      $('.loader-bg').fadeToggle();
-    }, 1500);
-  </script>
+    <section class="section section-e" id="section-5">
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+
+    <script>
+        setTimeout(function() {
+            $('.loader-bg').fadeToggle();
+        }, 1500);
+    </script>
 
 </body>
 
