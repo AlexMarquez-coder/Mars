@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 
 /* Header */
 
@@ -89,6 +93,25 @@
   left: 0;
   z-index: 1;
 } 
+
+.animation-con  {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.animation  {
+  height: 120px;
+  width: 120px; 
+}
+
+
+
+.animation img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
 
 
 /* Sections einde */
