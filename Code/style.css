@@ -161,8 +161,12 @@ body {
 
 .section-f {
   background: rgb(64, 255, 0);
-  color: #fff;
+  color: black;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  justify-content: center;
   width: 100vw;
   top: 0;
   left: 0;

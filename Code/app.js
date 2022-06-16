@@ -1,9 +1,10 @@
-// Autoplay na 1600 milieseconden
-var un_mute = document.getElementById('un-mute');
 
-un_mute.onclick = function() {
-    alert('toggle player here');
-};
+
+document.getElementById('#section-4');
+
+
+// Autoplay na 1600 milieseconden
+
 const startVideo = async() => {
     const video = document.querySelector('#MarsVid');
 
@@ -22,7 +23,6 @@ setTimeout(startVideo, 1600)
 
 // Auto scroll naar section-4
 
-document.querySelector('#section-4').scrollIntoView({
+document.querySelector('#section-4').scrollIntoView({ 
 
 });
-
