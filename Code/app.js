@@ -1,4 +1,16 @@
 
+  
+  
+
+
+
+function onStart() {
+  window.scrollTo({
+    top: 2700,
+  });
+}
+
+
 // Autoplay na 1600 milieseconden
 
 const startVideo = async () => {
@@ -21,3 +33,4 @@ setTimeout(startVideo, 1600)
 document.querySelector('#section-4').scrollIntoView({ 
 
 });
+
