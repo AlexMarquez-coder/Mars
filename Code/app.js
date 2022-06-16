@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-=======
-
-  
-  
-
-
-
-function onStart() {
-  window.scrollTo({
-    top: 2700,
-  });
-}
-
-
->>>>>>> bcd31165a236608e74b1c4a13e3fae2cf1ccf59b
 // Autoplay na 1600 milieseconden
 var un_mute = document.getElementById('un-mute');
 

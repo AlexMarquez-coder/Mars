@@ -7,31 +7,24 @@ body {
     overflow-x: hidden;
 }
 
-<<<<<<< HEAD
 html,
 body {
     width: 100%;
     height: 100%;
-=======
-
-
-html, body{
-  width: 100%;
-  height: 100%;
->>>>>>> bcd31165a236608e74b1c4a13e3fae2cf1ccf59b
 }
 
 ::-webkit-scrollbar {
     display: none;
 }
 
-/* Section */
+/* Grids */
+
 .section-c {
   clear: both;
   margin: 0;
   padding: 0;
 }
-/* Column */
+
 .col {
   background: #eee;
   display: block;
@@ -74,6 +67,9 @@ html, body{
   [class*='grid_'] { width: 100%; }
 }
 
+/* Grids einde */
+
+
 /* Header */
 
 .header {
@@ -102,130 +98,10 @@ html, body{
 /* Header einde */
 
 
-/* Navbar Begin */
-
-.navbar {
-    display: flex;
-    z-index: -1;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #c2c3c7;
-}
-
-.logo {
-    display: flex;
-    padding-left: 20px;
-    max-width: 250px;
-    max-height: 250px;
-}
-
-.logo>img {
-    width: 100%;
-    height: 100%;
-}
-
-
-/* .navbar-links ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.navbar-links li {
-  list-style: none;
-}
-
-.navbar-links li a {
-  text-decoration: none;
-  color: white;
-  padding: 1rem;
-  display: block;
-}
-
-.navbar-links li:hover {
-  background-color: lightslategray;
-}
-
-.toggle-button {
-  position: absolute;
-  top: .75rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
-}
-
-.toggle-button .bar {
-  height: 3px;
-  width: 100%;
-  background-color: white;
-  border-radius: 10px;
-} */
-
-iframe {
-    overflow: hidden;
-}
-
-<<<<<<< HEAD
-/* Sections */
-
-=======
-@media (max-width: 400px) {
-    /* .toggle-button {
-    display: flex;
-  }
-
-  .navbar-links {
-    display: none;
-    width: 100%;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .navbar-links ul {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .navbar-links li {
-    text-align: center;
-  }
-
-  .nav-links li a {
-    padding: .5rem 1rem;
-  }
-
-  .navbar-links.active {
-    display: flex;
-  } */
-    .logo {
-        display: flex;
-        padding-left: 20px;
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .logo>img {
-        width: 100%;
-        height: 100%;
-    }
-}
-
-
-/* Navbar einde */
 
 
 /* Sections */
 
-.section {
-    padding: 20px 0;
-}
-
->>>>>>> a898b109c59da4bafc940e63c2852c6593b3d74d
 .section-a {
     height: 100vh;
     width: 100vw;
@@ -249,29 +125,9 @@ iframe {
 }
 
 .section-c {
-<<<<<<< HEAD
-  background: green;
-  color: white;
-  height: 50vh;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.section-d {
-  background: pink;
-  color: #fff;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-  left: 0; 
-  overflow: hidden;
-  z-index: 1;
-=======
     background: green;
     color: white;
-    height: 100vh;
+    height: 55vh;
     width: 100vw;
     top: 0;
     left: 0;
@@ -279,28 +135,17 @@ iframe {
 }
 
 .section-d {
-    background: pink;
+    background: black;
     color: #fff;
+    overflow: hidden;
     height: 100vh;
     width: 100vw;
     top: 0;
     left: 0;
     z-index: 1;
->>>>>>> a898b109c59da4bafc940e63c2852c6593b3d74d
 }
 
 .section-e {
-<<<<<<< HEAD
-    background: orange;
-    color: #fff;
-    height: 110vh;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-=======
   background: #252526;
   color: #fff;
   height: 55vh;
@@ -317,13 +162,12 @@ iframe {
 .section-f {
   background: rgb(64, 255, 0);
   color: #fff;
-  height: 110vh;
+  height: 100vh;
   width: 100vw;
   top: 0;
   left: 0;
   z-index: 1;
 } 
->>>>>>> bcd31165a236608e74b1c4a13e3fae2cf1ccf59b
 
 
 .animation-con  {
@@ -376,13 +220,8 @@ iframe {
 }
 
 .dots img {
-<<<<<<< HEAD
-    width: 130px;
-    height: 130px;
-=======
   width: 100px;
   height: 100px;
->>>>>>> bcd31165a236608e74b1c4a13e3fae2cf1ccf59b
 }
 
 .dots:nth-child(2) {
@@ -415,7 +254,7 @@ iframe {
     }
 }
 
-input#un-mute {
+/* input#un-mute {
     display: none;
 }
 
@@ -433,7 +272,7 @@ input#un-mute:checked~.mute img {
     width: 5px;
     height: 1px;
     display: none;
-}
+} */
 
 
 /* Loading screen einde */
