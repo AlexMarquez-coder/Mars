@@ -43,40 +43,57 @@ body {
 .grid_1_of_4{ 
   width: 25%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: pink;
-  color: black;
-  font-size: 50px;
+  background-color: #252526;
+  color: white;
 }
+
+.grid_1_of_4 .content{
+  position: absolute;
+  margin-top: 380px;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.grid_2_of_4 .content{
+  position: absolute;
+  margin-top: 380px;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.grid_3_of_4 .content{
+  position: absolute;
+  margin-top: 380px;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.grid_4_of_4 .content{
+  position: absolute;
+  margin-top: 380px;
+  padding: 20px;
+  font-size: 40px;
+}
+
 .grid_3_of_4{ 
   width: 25%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: pink;
-  color: black;
+  background-color: #252526;
+  color: white;
   font-size: 50px;
 }
 .grid_2_of_4{ 
   width: 25%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: purple;
+  background-color: white;
   color: black;
   font-size: 50px;
 }
+
 .grid_4_of_4{ 
   width: 25%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: purple;
+  background-color: white;
   color: black;
   font-size: 50px;
 }
@@ -216,10 +233,6 @@ body {
   background: #a8aaab;
   color: black;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  font-size: 50px;
-  justify-content: center;
   width: 100vw;
   top: 0;
   left: 0;
