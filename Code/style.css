@@ -47,13 +47,10 @@ body {
   color: white;
 }
 
-.grid_1_of_4 .content{
-  position: absolute;
-  margin-top: 380px;
-  padding: 20px;
-  font-size: 40px;
+.grid_1_of_4 .container{
+  overflow: hidden;
+  z-index: -1;
 }
-
 .grid_2_of_4 .content{
   position: absolute;
   margin-top: 380px;
@@ -226,8 +223,12 @@ body {
   align-items: center;
   font-size: 40px;
   left: 0;
-  z-index: 1;
+  z-index: 99;
 } 
+
+.section-e .container {
+  z-index: 99;
+}
 
 .section-f {
   background: #a8aaab;
