@@ -38,30 +38,72 @@
     <section class="section section-b" id="section-2">
     </section>
 
-    <section class="section section-c" id="section-3">
+    <!-- <section class="section section-c" id="section-3">
         <div class="col grid_1_of_4">
             <div class="content">
-                #klimaat
+                <video src="../Video's/Video_s/Aflevering Klimaat.mp4" type="video/mp4" loop class="clip" muted></video>
             </div>
         </div>
 
         <div class="col grid_2_of_4">
             <div class="content">
-                #onderwijs
+                <video src="../Video's/Video_s/Aflevering Wonen.mp4" type="video/mp4" loop class="clip" muted></video>
             </div>
         </div>
 
         <div class="col grid_3_of_4">
             <div class="content">
-                #wonen
+               <video src="../Video's/Video_s/Aflevering Zorg.mp4" type="video/mp4" loop class="clip" muted></video>
             </div>
         </div>
 
         <div class="col grid_4_of_4">
             <div class="content">
-                #zorg
+                <video src="../Video's/Video_s/Aflevering Onderwijs.mp4" type="video/mp4" loop class="clip" muted></video>
             </div>
-        </div>
+        </div> -->
+
+
+        <div class="filmpjes">
+      
+            <div class="col grid_1_of_4">
+              <div class="box">
+                <video src="../Video's/Video_s/Aflevering Klimaat.mp4" type="video/mp4" loop class="clip" muted></video>    
+              </div>
+            </div>
+      
+            <div class="col grid_2_of_4">
+              <div class="box">
+                <video src="../Video's/Video_s/Aflevering Wonen.mp4" type="video/mp4" loop class="clip" muted></video>
+              </div>        
+            </div>
+        
+            <div class="col grid_3_of_4">
+              <div class="box">
+                <video src="../Video's/Video_s/Aflevering Zorg.mp4" type="video/mp4" loop class="clip" muted></video>
+              </div>  
+            </div>
+        
+            <div class="col grid_4_of_4">
+              <div class="box">
+                <video src="../Video's/Video_s/Aflevering Onderwijs.mp4" type="video/mp4" loop class="clip" muted></video>
+              </div>
+            </div>
+          
+            <script>
+              const clip = document.querySelectorAll('.clip');
+      for (let i = 0; i<clip.length; i++){
+          clip[i].addEventListener('mouseenter', function(e){
+              clip[i].play()
+          })
+      
+          clip[i].addEventListener('mouseout', function(e){
+              clip[i].pause()
+          })
+      }
+            </script>
+      
+
     </section>
 
     <section class="section section-d" id="section-4">

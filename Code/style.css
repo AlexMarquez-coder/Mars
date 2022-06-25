@@ -116,6 +116,35 @@ body {
     font-size: 50px;
 }
 
+/* .filmpjes{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+} */
+
+.filmpjes .box{
+    position: relative;
+    width: 100%;
+    height: 50vh; 
+    filter: grayscale(1);
+  }
+  
+  .filmpjes .box:hover {
+    filter: grayscale(0);
+  }
+  
+  .filmpjes .box video {
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
 
 /* Full Width below 768 pixels */
 
