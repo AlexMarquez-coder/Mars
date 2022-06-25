@@ -144,8 +144,6 @@ body {
     object-fit: cover;
   }
   
-
-
 /* Full Width below 768 pixels */
 
 @media only screen and (max-width: 768px) {
