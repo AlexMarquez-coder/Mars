@@ -228,7 +228,7 @@ body {
     height: 100vh;
     width: 100vw;
     position: absolute;
-    top: 250%;
+    top: 230%;
     left: 0;
     background: #0a0a0a;
     z-index: 1;
@@ -289,12 +289,71 @@ body {
 .section-b {
     background: red;
     color: white;
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     top: 0;
     left: 0;
     z-index: 1;
 }
+
+.grid_1_of_5 {
+    width: 50%;
+    height: 100%;
+    background-color: #ecd6e8;
+    color: white;
+}
+
+.grid_2_of_5 {
+    width: 50%;
+    height: 100%;
+    background-color: #a8aaab;
+    color: white;
+}
+
+.box h1 {
+    color: #252526;
+    padding: 70px;
+    font-size: 65px;
+}
+
+.box .text {
+    color: #252526;
+    padding: 70px;
+    margin-top: -100px;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+.box .lees-meer {
+    color: #252526;
+    padding: 70px;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -100px;
+    word-spacing: 3px;
+}
+
+.circles2 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 70px;
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+    grid-auto-flow: column;
+    grid-auto-columns: 100px;
+    margin-top: 240px;
+}
+
+.circles {
+    background-color: #d9ff6b;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
 
 .section-c {
     background: green;
@@ -320,8 +379,8 @@ body {
     cursor: pointer;
     position: absolute;
     z-index: 99;
-    top: 337%;
-    right: 0;
+    top: 316%;
+    left: 0;
     padding: 10px 60px;
     color: #fff;
     border-radius: 4px;
@@ -350,6 +409,7 @@ body {
     width: 100vw;
     top: 0;
     left: 0;
+    font-family: sans-serif;
     z-index: 1;
 }
 
@@ -387,6 +447,38 @@ body {
 
 /* Sections einde */
 
+/* Footer */
+
+.footer-logo {
+    width: 10%;
+    padding: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.footer-text {
+    padding: 40px;
+    margin-left: 50px;
+    line-height: 40px;
+}
+
+.footer-text2 {
+    margin-left: 380px;
+    padding: 40px;
+    margin-top: -240px;
+    line-height: 40px;    
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    font-size: 180px;
+    margin-top: 250px;
+    color: #ecd6e8;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+/* Footer einde */
 
 /* Loading screen */
 
