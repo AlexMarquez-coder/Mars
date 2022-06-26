@@ -44,27 +44,68 @@
       
             <div class="col grid_1_of_4">
               <div class="box">
-                <video src="../Video's/Video_s/Aflevering Klimaat.mp4" type="video/mp4" loop class="clip" muted></video>    
+                <video onclick="on()" src="../Video's/Video_s/Aflevering Klimaat.mp4" type="video/mp4" loop class="clip" muted></video>    
               </div>
             </div>
       
             <div class="col grid_2_of_4">
               <div class="box">
-                <video src="../Video's/Video_s/Aflevering Wonen.mp4" type="video/mp4" loop class="clip" muted></video>
+                <video onclick="on()" src="../Video's/Video_s/Aflevering Wonen.mp4" type="video/mp4" loop class="clip" muted></video>
               </div>        
             </div>
         
             <div class="col grid_3_of_4">
               <div class="box">
-                <video src="../Video's/Video_s/Aflevering Zorg.mp4" type="video/mp4" loop class="clip" muted></video>
+                <video onclick="on()" src="../Video's/Video_s/Aflevering Zorg.mp4" type="video/mp4" loop class="clip" muted></video>
               </div>  
             </div>
         
             <div class="col grid_4_of_4">
               <div class="box">
-                <video src="../Video's/Video_s/Aflevering Onderwijs.mp4" type="video/mp4" loop class="clip" muted></video>
+                <video onclick="on()" src="../Video's/Video_s/Aflevering Onderwijs.mp4" type="video/mp4" loop class="clip" muted></video>
               </div>
             </div>
+            <section id="overlay">
+                <div class="about">
+                    <div class="inhoud">
+                        <h1 style="font-size: 50px;">About Us</h1>
+                        <p style="color: #ecd6e8;">orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                        <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                        <img src="../fot.jpg" alt="" style="width: 100%;">
+                        <p style="color: #ecd6e8;">orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                        <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                        <div style="width: 100%; display: flex;">
+                            <div class="fotosss">
+                                <img src="../fot.jpg" alt="" style="width: 90%;">
+                                <img src="../fot.jpg" alt="" style="width: 90%;">
+            
+                            </div>
+                            <img src="../pasfot.jpg" alt="" style="width: 50%;">
+                        </div>
+                        <p style="color: #ecd6e8;">orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                        <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                        <div class="zwart">
+                            <H1>Lorem ipsum dolor sit amet,
+                                consectetuer adipiscing elit,
+                                sed diam nonummy</H1>
+                        </div>
+                        <button onclick="off()">hier uitdoen</button>
+                        <h1>hasllo</h1>
+                    </div>
+                </div>
+            </section>
+            <script>
+                function on(){
+                    document.getElementById("overlay").style.display = "flex";
+                    
+            
+                }
+                function off(){
+                    document.getElementById("overlay").style.display = "none";
+                    
+                }
+                
+            </script>
           
             <script>
               const clip = document.querySelectorAll('.clip');
