@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,11 +10,18 @@
   <link rel="stylesheet" href="style.css" />
   <script src="app.js"></script>
   <script src="map.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Mars</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+
 </head>
 
 <body onLoad="scrollIntoView()">
 
-  <!-- <div class="loader-bg">
+    <!-- <div class="loader-bg">
     <div class="loader">
       <div class="dots"><img src="../File's/Mars_Photo.png"></div>
       <div class="dots"><img src="../File's/Mars_Photo.png"></div>
@@ -21,6 +29,7 @@
       <div class="dots"><img src="../File's/Mars_Photo.png"></div>
       <div class="dots"><img src="../File's/Mars_Photo.png"></div>
     </div> -->
+
     <section class="section section-a">
         <div class="human test" style="display: grid; place-items: center;" onmouseenter="showPicture(0)" onmouseleave="showPicture(0)">
             <img class="human-img" src="../Foto's/Evolution of mankind 1.png" id="0"/>
@@ -60,75 +69,180 @@
                         </div>
                     </div>
                 </div>
+
+
+    <section class="section section-a" id="section-1">
+        <div class="animation-con">
+            <div class="animation animation-1" id="foto1">
+                <img src="/File's/foto1.png " alt="">
+            </div>
+            <div class="animation animation-2" id="foto2">
+                <img src="/File's/foto2.png " alt="">
+            </div>
+            <div class="animation animation-3" id="foto3">
+                <img src="/File's/foto3.png " alt="">
+
             </div>
         </div>
     </section>
 
     <section class="section section-b" id="section-2">
+
+        <div class="col grid_1_of_5">
+            <div class="box">
+                <h1>About</h1>
+                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit consectetur odit nam fugit enim, nobis velit laudantium alias unde esse magni quibusdam doloremque, quo, ullam necessitatibus veniam provident ducimus corrupti!</div>
+                <a class="lees-meer" href="#">Lees meer</a>
+            </div>
+          </div>
+    
+          <div class="col grid_2_of_5">
+            <div class="box">
+                <div class="circles2">
+                    <div class="circles"></div>
+                    <div class="circles"></div>
+                    <div class="circles"></div>
+                    <div class="circles"></div>
+                    <div class="circles"></div>
+                    <div class="circles"></div>
+                </div>
+            </div>        
+          </div>
+
     </section>
 
     <section class="section section-c" id="section-3">
-      <div class="col grid_1_of_4"> 
-        <div class="content">
-          #klimaat 
-        </div>
-      </div>
+   
+        <div class="filmpjes">
+      
+            <div class="col grid_1_of_4">
+              <div class="box">
+                <video onclick="on()" src="../Video's/Video_s/Aflevering Klimaat.mp4" type="video/mp4" loop class="clip" muted></video>    
+              </div>
+            </div>
+      
+            <div class="col grid_2_of_4">
+              <div class="box">
+                <video onclick="on()" src="../Video's/Video_s/Aflevering Wonen.mp4" type="video/mp4" loop class="clip" muted></video>
+              </div>        
+            </div>
+        
+            <div class="col grid_3_of_4">
+              <div class="box">
+                <video onclick="on()" src="../Video's/Video_s/Aflevering Zorg.mp4" type="video/mp4" loop class="clip" muted></video>
+              </div>  
+            </div>
+        
+            <div class="col grid_4_of_4">
+              <div class="box">
+                <video onclick="on()" src="../Video's/Video_s/Aflevering Onderwijs.mp4" type="video/mp4" loop class="clip" muted></video>
+              </div>
+            </div>
+            <section id="overlay">
+                <div class="about">
+                    <div class="inhoud">
+                        <h1 style="font-size: 50px;">About Us</h1>
+                        <p style="color: #ecd6e8;">orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                        <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                        <img src="../fot.jpg" alt="" style="width: 100%;">
+                        <p style="color: #ecd6e8;">orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                        <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                        <div style="width: 100%; display: flex;">
+                            <div class="fotosss">
+                                <img src="../fot.jpg" alt="" style="width: 90%;">
+                                <img src="../fot.jpg" alt="" style="width: 90%;">
+            
+                            </div>
+                            <img src="../pasfot.jpg" alt="" style="width: 50%;">
+                        </div>
+                        <p style="color: #ecd6e8;">orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                        <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                        <div class="zwart">
+                            <H1>Lorem ipsum dolor sit amet,
+                                consectetuer adipiscing elit,
+                                sed diam nonummy</H1>
+                        </div>
+                        <button onclick="off()">hier uitdoen</button>
+                        <h1>hasllo</h1>
+                    </div>
+                </div>
+            </section>
+            <script>
+                function on(){
+                    document.getElementById("overlay").style.display = "flex";
+                    
+            
+                }
+                function off(){
+                    document.getElementById("overlay").style.display = "none";
+                    
+                }
+                
+            </script>
+          
+            <script>
+              const clip = document.querySelectorAll('.clip');
+      for (let i = 0; i<clip.length; i++){
+          clip[i].addEventListener('mouseenter', function(e){
+              clip[i].play()
+          })
+      
+          clip[i].addEventListener('mouseout', function(e){
+              clip[i].pause()
+          })
+      }
+            </script>
+      
 
-      <div class="col grid_2_of_4">  
-        <div class="content">
-          #onderwijs 
-        </div>
-      </div>
-  
-      <div class="col grid_3_of_4"> 
-        <div class="content">
-          #wonen 
-        </div>
-      </div>
-  
-      <div class="col grid_4_of_4"> 
-        <div class="content">
-          #zorg 
-        </div>
-      </div>
     </section>
 
     <section class="section section-d" id="section-4">
-      <header class="header container">
-        <div class="fullscreen-video-wrap">
-          <video id="MarsVid" src="../File's/X2Download.com-Marsha Simon & De Wooncoöperatie-(1080p).mp4" type="video/mp4" muted="true" loop="true" autoplay="true" ></video>
-             
-        </div>
-        <div class="header-overlay"></div>
-      </header>
+        <header class="header container">
+            <div class="fullscreen-video-wrap">
+
+                <video id="MarsVid" src="../File's/X2Download.com-Marsha Simon & De Wooncoöperatie-(1080p).mp4" type="video/mp4" muted="true" loop="true" autoplay="true"></video>
+                <button onclick="myFunction()">Click me</button>
+            </div>
+            <div id="audio-control" class="muted"><img src="icons8-sound-speaker-50.png" alt=""></div>
+            <div class="header-overlay"></div>
+        </header>
+
     </section>
 
 
     <section onclick="location.href='Podcast.html';" class="section section-e" id="section-5">
-      <h1>Podcast hier</h1>
-      <div class="container">
-        <div class="square">
-          <div class="circle">
-            <div class="triangle">
+        <h1>Podcast hier</h1>
+        <div class="container">
+            <div class="square">
+                <div class="circle">
+                    <div class="triangle">
 
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <section class="section section-f" id="section-6">
-      <div class="content">
-        <h1>Welcome to Mars</h1>
-      </div>
-    </section>
-
-    <section class="section section-g" id="section-6">
-       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.86454725477!2d4.853901815671138!3d52.39100577978997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e28849730d2f%3A0x5dffd675d740eddb!2sMediacollege%20Amsterdam!5e0!3m2!1snl!2snl!4v1653656593843!5m2!1snl!2snl"
-        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe> 
+        <div class="content">
+            <img class="footer-logo" src="../File's/Logo.svg">
+            <div class="footerr-text">
+                <div class="footer-text">
+                    Marsha Simon<br>
+                    Brouwersgracht 252 D<br>
+                    1013 HE Amsterdam<br>
+                    +31 (0) 6 144 65 203<br>
+                    marsha@welcometomars.nl<br>
+                </div>
+                <div class="footer-text2">
+                    Welcome to Mars<br>
+                    KvK 52880826<br>
+                    BTW NL001701427B38<br>
+                    IBAN NL91 TRIO 039 100 4042<br>
+                </div>
+            </div>
+            <div class="footer-title">Welcome to Mars</div>
+        </div>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -137,9 +251,9 @@
     <script src="script.js"></script>
 
     <script>
-      setTimeout(function () {
-        $('.loader-bg').fadeToggle();
-      }, 1500);
+        setTimeout(function() {
+            $('.loader-bg').fadeToggle();
+        }, 1500);
     </script>
 
 </body>
