@@ -116,7 +116,78 @@ body {
     font-size: 50px;
 }
 
+/* .filmpjes{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+} */
 
+.filmpjes .box{
+    position: relative;
+    width: 100%;
+    height: 50vh; 
+    filter: grayscale(1);
+  }
+  
+  .filmpjes .box:hover {
+    filter: grayscale(0);
+  }
+  
+  .filmpjes .box video {
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #overlay{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 600vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.566);
+    z-index: 2;
+    
+    justify-content: center;
+    
+  }
+  .about{
+    width: 70%;
+    background-color: #a8aaad;
+    
+    margin-top: 120px;
+    margin-bottom: auto;
+  }
+  .inhoud{
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fotosss{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 30px;
+  }
+  .zwart{
+    width: 100%;
+    height: 300px;
+    background-color: #252526;
+  }
+  .about1{
+    display: flex;
+    height: 500px;
+    font-size: 130;
+  
+  }
+  
 /* Full Width below 768 pixels */
 
 @media only screen and (max-width: 768px) {
