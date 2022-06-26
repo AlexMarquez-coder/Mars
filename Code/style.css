@@ -153,6 +153,16 @@ body {
     min-height: 100%;
 }
 
+.header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 250%;
+    left: 0;
+    background: #0a0a0a;
+    z-index: 1;
+    opacity: 0.6;
+}
 
 /* Header einde */
 
@@ -226,7 +236,6 @@ body {
 }
 
 .section-d {
-    background: black;
     color: #fff;
     overflow: hidden;
     height: 100vh;
@@ -238,9 +247,11 @@ body {
 
 #audio-control {
     cursor: pointer;
+    position: absolute;
     z-index: 99;
-    padding: 10px 20px;
-    background: #000;
+    top: 337%;
+    right: 0;
+    padding: 10px 60px;
     color: #fff;
     border-radius: 4px;
     display: inline-block;

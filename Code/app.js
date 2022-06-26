@@ -1,6 +1,5 @@
 document.getElementById('#section-4');
 
-
 // Autoplay na 1600 milieseconden
 
 const startVideo = async() => {
@@ -10,7 +9,8 @@ const startVideo = async() => {
     $('#audio-control').click(function() {
         if ($("#MarsVid").prop('muted')) {
             $("#MarsVid").prop('muted', false);
-            $(this).text('Mute');
+            // $(this).text('Mute');
+            $(this).img('speaker_Icon.svg');
             // or toggle class, style it with a volume icon sprite, change background-position
         } else {
             $("#MarsVid").prop('muted', true);
