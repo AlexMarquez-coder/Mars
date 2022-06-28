@@ -2,12 +2,21 @@
 <html lang="en">
 
 <head>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Mars</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js"></script>
+  <script src="map.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Mars</title>
     <link rel="stylesheet" href="style.css" />
     <script src="app.js"></script>
+
 </head>
 
 <body onLoad="scrollIntoView()">
@@ -21,19 +30,46 @@
       <div class="dots"><img src="../File's/Mars_Photo.png"></div>
     </div> -->
 
-    <section class="section section-a" id="section-1">
-        <div class="animation-con">
-            <div class="animation animation-1" id="foto1">
-                <img src="/File's/foto1.png " alt="">
-            </div>
-            <div class="animation animation-2" id="foto2">
-                <img src="/File's/foto2.png " alt="">
-            </div>
-            <div class="animation animation-3" id="foto3">
-                <img src="/File's/foto3.png " alt="">
+    <section class="section section-a">
+        <div class="human test" style="display: grid; place-items: center;" onmouseenter="showPicture(0)" onmouseleave="showPicture(0)">
+            <img class="human-img" src="../Foto's/Evolution of mankind 1.png" id="0"/>
+            <img class="human-img" src="../Foto's/Evolution of mankind 2.png" id="1"/>
+            <img class="human-img" src="../Foto's/Evolution of mankind 3.png" id="2"/>
+            <img class="human-img" src="../Foto's/Evolution of mankind 4.png" id="3"/>
+            <img class="human-img" src="../Foto's/Evolution of mankind 5.png" id="4"/>
+            <img class="human-img" src="../Foto's/Evolution of mankind 6.png" id="5"/>
+            <img class="human-img" src="../Foto's/Evolution of mankind 7.png" id="6"/>
+            <div class="human-img" id="fixed" onmouseenter="showPicture(1)" onmouseleave="showPicture(1)">
+                <div id="fixed" onmouseenter="showPicture(2)" onmouseleave="showPicture(2)">
+                    <div id="fixed" onmouseenter="showPicture(3)" onmouseleave="showPicture(3)">
+                        <div id="fixed" onmouseenter="showPicture(4)" onmouseleave="showPicture(4)">
+                            <div id="fixed" onmouseenter="showPicture(5)" onmouseleave="showPicture(5)">
+                                <div id="fixed" onmouseenter="showPicture(6)" onmouseleave="showPicture(6)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
+
+        <div class="hero" style="display: grid; place-items: center;" onmouseenter="show(10)" onmouseleave="show(10)">
+            <img class="hero-img" src="../Foto's/Heroes of Tomorrow 1.png" id="10"/>
+            <img class="hero-img" src="../Foto's/Heroes of Tomorrow 2.png" id="11"/>
+            <img class="hero-img" src="../Foto's/Heroes of Tomorrow 3.png" id="12"/>
+            <img class="hero-img" src="../Foto's/Heroes of Tomorrow 4.png" id="13"/>
+            <img class="hero-img" src="../Foto's/Heroes of Tomorrow 5.png" id="14"/>
+            <img class="hero-img" src="../Foto's/Heroes of Tomorrow 6.png" id="15"/>
+            <div id="fix" onmouseenter="show(11)" onmouseleave="show(11)">
+                <div id="fix" onmouseenter="show(12)" onmouseleave="show(12)">
+                    <div id="fix" onmouseenter="show(13)" onmouseleave="show(13)">
+                        <div id="fix" onmouseenter="show(14)" onmouseleave="show(14)">
+                            <div id="fix" onmouseenter="show(15)" onmouseleave="show(15)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>        
 
     <section class="section section-b" id="section-2">
 
