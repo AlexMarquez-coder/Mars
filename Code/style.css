@@ -1,4 +1,5 @@
 @font-face { font-family: NeueMachina; src: url('NeueMachina-Regular.otf'); } 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tiro+Telugu&display=swap');
 
 * {
     padding: 0;
@@ -74,13 +75,27 @@ body {
     font-size: 50px;
 }
 
+.grid_1_of_5 {
+    width: 50%;
+    height: 100%;
+    background-color: #ecd6e8;
+    color: white;
+}
+
+.grid_2_of_5 {
+    width: 50%;
+    height: 100%;
+    background-color: #a8aaab;
+    color: white;
+}
+
 /* Grids einde */
 
 
 .filmpjes .box{
     position: relative;
     width: 100%;
-    height: 50vh; 
+    height: 35vh; 
     filter: grayscale(1);
   }
   
@@ -137,17 +152,10 @@ body {
     height: 500px;
     font-size: 130;
   
-  }
-  
-/* Full Width below 768 pixels */
+}
 
 
-
-
-/* Grids einde */
-
-
-/* Header */
+/* Header filmpje */
 
 .header {
     display: flex;
@@ -157,7 +165,6 @@ body {
 }
 
 .fullscreen-video-wrap {
-    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
@@ -174,14 +181,144 @@ body {
     height: 100vh;
     width: 100vw;
     position: absolute;
-    top: 230%;
+    top: 215%;
     left: 0;
     background: #0a0a0a;
     z-index: 1;
     opacity: 0.6;
 }
 
-/* Header einde */
+/* Header filmpje einde */
+
+
+/* Sections */
+
+.section-a {
+    height: 100vh;
+    width: 100vw;
+    background: white;
+    color: white;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.section-b {
+    background: red;
+    color: white;
+    height: 80vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.section-c {
+    background: green;
+    color: white;
+    height: 35vh;
+    width: 100vw;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.section-d {
+    color: #fff;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.section-e {
+    background: #252526;
+    color: #fff;
+    height: 55vh;
+    width: 100vw;
+    cursor: pointer;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    left: 0;
+    z-index: 1;
+}
+
+.section-f {
+    background: #a8aaab;
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* Sections einde */
+
+
+/* About grid + Social grid */
+
+.box h1 {
+    color: #252526;
+    padding: 70px;
+    font-family: 'NeueMachina', sans-serif;
+    font-size: 65px;
+}
+
+.box .text {
+    color: #252526;
+    font-family: 'NeueMachina', sans-serif;
+    font-weight: bold;
+    padding: 70px;
+    margin-top: -100px;
+    word-spacing: 5px;
+    font-size: 22px;
+}
+
+.box .lees-meer {
+    color: #252526;
+    padding: 70px;
+    font-size: 20px;
+    font-family: 'NeueMachina', sans-serif;
+    position: absolute;
+    margin-top: -110px;
+    word-spacing: 1px;
+}
+
+.circles2 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 70px;
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+    grid-auto-flow: column;
+    grid-auto-columns: 100px;
+    margin-top: 240px;
+}
+
+.circles {
+    background-color: #d9ff6b;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+/* About grid + Social grid Einde */
+
+
+/* Podcast */
 
 .section-e .container {
     position: absolute;
@@ -217,196 +354,10 @@ body {
     border-color: transparent transparent transparent #ecd6e8;
 }
 
-
-/* Sections */
-
-.section-a {
-    height: 100vh;
-    width: 100vw;
-    background: white;
-    color: white;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    left: 0;
-    z-index: 1;
-}
-
-.human {
-  position: absolute;
-  left: 50%;
-  height: 200px;
-  width: 200px;
-}
-
-#fixed {
-  position: relative;
-  width: calc(100% - 25%);
-  height: calc(100% - 25%);
-  display: grid;
-  place-items: center;
-}
-
-.human-img {
-  object-fit: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transition: opacity 0.1s ease-in-out;
-}
-
-.hero {
-  position: absolute;
-  left: 25%;
-  top: 50%;
-  height: 180px;
-  width: 240px;
-}
-
-#fix {
-  position: relative;
-  width: calc(100% - 20%);
-  height: calc(100% - 20%);
-  display: grid;
-  place-items: center;
-}
-
-.hero-img {
-  object-fit: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transition: opacity 0.1s ease-in-out;
-}
-
-.section-b {
-    background: red;
-    color: white;
-    height: 80vh;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-.grid_1_of_5 {
-    width: 50%;
-    height: 100%;
-    background-color: #ecd6e8;
-    color: white;
-}
-
-.grid_2_of_5 {
-    width: 50%;
-    height: 100%;
-    background-color: #a8aaab;
-    color: white;
-}
-
-.box h1 {
-    color: #252526;
-    padding: 70px;
-    font-size: 65px;
-}
-
-.box .text {
-    color: #252526;
-    padding: 70px;
-    margin-top: -100px;
-    word-spacing: 5px;
-    font-size: 20px;
-}
-
-.box .lees-meer {
-    color: #252526;
-    padding: 70px;
-    font-size: 20px;
-    position: absolute;
-    margin-top: -100px;
-    word-spacing: 3px;
-}
-
-.circles2 {
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    gap: 70px;
-    display: grid;
-    grid-template-rows: repeat(2, 100px);
-    gap: 10px;
-    grid-auto-flow: column;
-    grid-auto-columns: 100px;
-    margin-top: 240px;
-}
-
-.circles {
-    background-color: #d9ff6b;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-}
+/* Podcast einde */
 
 
-.section-c {
-    background: green;
-    color: white;
-    height: 50vh;
-    width: 100vw;
-    clear: both;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-.section-d {
-    color: #fff;
-    overflow: hidden;
-    height: 100vh;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-#audio-control {
-    cursor: pointer;
-    position: absolute;
-    z-index: 99;
-    top: 316%;
-    left: 0;
-    padding: 10px 60px;
-    color: #fff;
-    border-radius: 4px;
-    display: inline-block;
-}
-
-.section-e {
-    background: #252526;
-    color: #fff;
-    height: 55vh;
-    width: 100vw;
-    cursor: pointer;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    left: 0;
-    z-index: 1;
-}
-
-.section-f {
-    background: #a8aaab;
-    color: black;
-    height: 100vh;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    font-family: sans-serif;
-    z-index: 1;
-}
+/* Animaties */
 
 .animation-con {
     display: flex;
@@ -423,9 +374,73 @@ body {
     height: 100%;
     width: 100%;
     object-fit: fill;
+} 
+
+.human {
+    position: absolute;
+    left: 50%;
+    height: 200px;
+    width: 200px;
+}
+  
+#fixed {
+    position: relative;
+    width: calc(100% - 25%);
+    height: calc(100% - 25%);
+    display: grid;
+    place-items: center;
 }
 
-/* Sections einde */
+.human-img {
+    object-fit: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.1s ease-in-out;
+}
+  
+.hero {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    height: 180px;
+    width: 240px;
+}
+  
+#fix {
+    position: relative;
+    width: calc(100% - 20%);
+    height: calc(100% - 20%);
+    display: grid;
+    place-items: center;
+}
+  
+.hero-img {
+    object-fit: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.1s ease-in-out;
+}
+
+/* Animaties einde */
+
+
+/* Audio control */
+
+#audio-control {
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    top: 302%;
+    left: 0;
+    padding: 10px 60px;
+    color: #fff;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* Audio control einde */
 
 
 /* Footer */
@@ -440,11 +455,13 @@ body {
 .footer-text {
     padding: 40px;
     margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
     line-height: 40px;
 }
 
 .footer-text2 {
     margin-left: 380px;
+    font-family: 'Roboto', sans-serif;
     padding: 40px;
     margin-top: -240px;
     line-height: 40px;    
