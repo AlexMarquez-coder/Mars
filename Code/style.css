@@ -470,8 +470,8 @@ body {
 .footer-title {
     display: flex;
     justify-content: center;
-    font-size: 190px;
-    margin-top: 200px;
+    font-size: 160px;
+    /* margin-top: 200px; */
     font-family: 'NeueMachina', sans-serif;
     color: #ecd6e8;
     letter-spacing: 2px;
