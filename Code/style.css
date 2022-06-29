@@ -490,6 +490,27 @@ body {
     }
 }
 
+@media only screen and (max-width: 375px) {
+    .col {}
+    [class*='grid_'] {
+        width: 100%;
+    }
+
+    .footer-title {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        text-align: center;
+        /* margin-top: 200px; */
+        font-family: 'NeueMachina', sans-serif;
+        color: #ecd6e8;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+    }
+}
+
+
+
 /* Media queries einde */
 
 
