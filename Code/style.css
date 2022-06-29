@@ -116,15 +116,17 @@ body {
     width: 100%;
     grid-template-columns: 1fr;
     background-color: rgba(0, 0, 0, 0.566);
-    z-index: 2;
+    z-index: 999;
     
     justify-content: center;
     
   }
   .about{
-    height: 300vh;
+    
     background-color: white;
     width: 50%;
+    margin: 100px;
+    
     
   }
   .inhoud{
@@ -143,6 +145,16 @@ body {
     
 
   }
+  .kruis{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+  
   .grijze{
     width: 100%;
     background-color: #a8aaab;

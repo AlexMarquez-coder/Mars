@@ -76,10 +76,7 @@
         <div class="col grid_1_of_5">
             <div class="box">
                 <h1>About</h1>
-                <div class="text">Lorem ipsum dolor sit amet, consectetuer adi-<br>
-                    piscing elit, sed diam nonummy nibh euismod<br>
-                    
-                    tincidunt ut laoreet dolore...</div>
+                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit consectetur odit nam fugit enim, nobis velit laudantium alias unde esse magni quibusdam doloremque, quo, ullam necessitatibus veniam provident ducimus corrupti!</div>
                 <a class="lees-meer" href="#">Lees meer</a>
             </div>
           </div>
@@ -87,6 +84,8 @@
           <div class="col grid_2_of_5">
             <div class="box">
                 <div class="circles2">
+                    <div class="circles"></div>
+                    <div class="circles"></div>
                     <div class="circles"></div>
                     <div class="circles"></div>
                     <div class="circles"></div>
@@ -124,9 +123,11 @@
                 <video onclick="on()" src="../Video's/Video_s/Aflevering Onderwijs.mp4" type="video/mp4" loop class="clip" muted></video>
               </div>
             </div>
-            <section id="overlay">
+            <section onclick="zijkantuit()" id="overlay">
+                <button onclick="off()" class="kruis">&times;</button>
                 <div class="about">
                     <div class="inhoud">
+                        
                         <video controls style="width: 100%;">
                             <source src="../Video's/Video_s/Aflevering Klimaat.mp4" type="video/mp4">
                         </video>
@@ -188,7 +189,7 @@
                             
                             dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tin-
                             cidunt ut laoreet dolore magna aliquam</p><br>
-                        <button onclick="off()">hier uitdoen</button>
+                        
                         <h1>hasllo</h1
                     </div>
                     
@@ -203,6 +204,9 @@
                 function off(){
                     document.getElementById("overlay").style.display = "none";
                     
+                }
+                function zijkantuit(){
+                    document.getElementById("overlay").style.display = "none";
                 }
                 
             </script>
