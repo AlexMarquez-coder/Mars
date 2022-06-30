@@ -16,6 +16,7 @@
     <title>Welcome to Mars</title>
     <link rel="stylesheet" href="style.css" />
     <script src="app.js"></script>
+    <script src="map2.js"></script>
 
 </head>
 
@@ -123,21 +124,39 @@
                 <video onclick="on()" src="../Video's/Video_s/Aflevering Onderwijs.mp4" type="video/mp4" loop class="clip" muted></video>
               </div>
             </div>
-            <section onclick="zijkantuit()" id="overlay">
-                <button onclick="off()" class="kruis">&times;</button>
-                <div class="about">
+            <section id="overlay">
+                    <div onclick="off()" class="blok" onmouseenter="zien(90)" onmouseleave="zien(90)">
+                        <img class="pict" src="../Foto's/Middel 4.png" id="90"/>
+                        <img class="pict" src="../Foto's/Middel 5.png" id="91"/>
+                        <img class="pict" src="../Foto's/Middel 6.png" id="92"/>
+                        <img class="pict" src="../Foto's/Middel 7.png" id="93"/>
+                        <img class="pict" src="../Foto's/Middel 7.png" id="94"/>
+                        <img class="pict" src="../Foto's/Middel 8.png" id="95"/>
+                        <div id="fixt" onmouseenter="zien(91)" onmouseleave="zien(91)">
+                            <div id="fixt" onmouseenter="zien(92)" onmouseleave="zien(92)">
+                                <div id="fixt" onmouseenter="zien(93)" onmouseleave="zien(93)">
+                                    <div id="fixt" onmouseenter="zien(94)" onmouseleave="zien(94)">
+                                        <div id="fixt" onmouseenter="zien(95)" onmouseleave="zien(95)">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                <div class="about" style="border-radius: 10px;">
                     <div class="inhoud">
                         
-                        <video controls style="width: 100%;">
+                        <video controls style="width: 100%; border-radius: 10px;">
                             <source src="../Video's/Video_s/Aflevering Klimaat.mp4" type="video/mp4">
                         </video>
                     </div>
+                    
                     <div class="textkli">
                         <h1 style="font-size: 45px; margin-top: 30px;">#klimaat</h1>
                         <br>
-                        <p style="font-size: 29px; font-weight:600;">Lorem ipsum dolor sit amet, consectetuer
-                            adipiscing elit, sed diam nonummy nibh
-                            euismod tincidunt ut laoreet dolore</p>
+                        <p style="font-size: 29px; font-weight:600;">Lorem ipsum dolor sit amet consectetuer adipiscing eli t consectetuer adipit, sed diam nonummy nibheuismod tincidunt ut laoreet dolore
+                            
+                            </p>
                             <br>
                         <p style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                             euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum
@@ -151,31 +170,26 @@
                             accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue</p>
                             <br>
                         <div class="zwarpar">
-                            <p style="width: 50%; font-size:20px">Lorem ipsum dolor sit amet, consecte-
+                            <p style="font-size:20px">Lorem ipsum dolor sit amet, consecte-
                                 tuer adipiscing elit, sed diam nonum-
                                 my nibh euismod tincidunt ut laoreet
-                                
                                 dolore magna aliquam erat volutpat.
-                                
                                 Lorem ipsum dolor sit amet, consecte-
                                 tuer adipiscing elit, sed diam nonum-
                                 my nibh euismod tincidunt ut laoreet
-                                
                                 dolore magna aliquam erat volutpat.
-                                
                                 Vel illum dolore eu feugiat nulla facili-
                                 sis at vero eros et accumsan et iusto
-                                
                                 odio dignissim qui blandit praesent
                                 luptatum zzril delenit augue duis</p>
-                            <div style="width: 50%; background-color: black;">
+                            <div style="background-color: black;">
 
                             </div>
                             <br>
                         </div>
                         <div class="grijze">
-                            <div style="padding: 30px; color: #d9ff6b;"><h1 style="color: #d9ff6b;">``</h1></div>
-                            <div style="padding: 30px">
+                            <div style=" color: #d9ff6b;"><h1 style="color: #d9ff6b;">``</h1></div>
+                            <div style="">
                                 <p>Lorem ipsum dolor sit amet,
                                     consectetuer adipiscing elit,
                                     sed diam nonummy</p><br>
@@ -189,8 +203,7 @@
                             
                             dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tin-
                             cidunt ut laoreet dolore magna aliquam</p><br>
-                        
-                        <h1>hasllo</h1
+                    
                     </div>
                     
                 </div>
@@ -198,6 +211,7 @@
             <script>
                 function on(){
                     document.getElementById("overlay").style.display = "flex";
+                    
                     
             
                 }

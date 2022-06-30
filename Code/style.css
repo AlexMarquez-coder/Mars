@@ -10,11 +10,12 @@ html,
 body {
     width: 100%;
     height: 100%;
-
+    
 }
 
 ::-webkit-scrollbar {
     display: none;
+    
 }
 
 
@@ -117,7 +118,9 @@ body {
     grid-template-columns: 1fr;
     background-color: rgba(0, 0, 0, 0.566);
     z-index: 999;
-    
+    font-family: NeueMachina; src: url('NeueMachina-Regular.otf');
+    font-size: medium;
+    font-size: 130;
     justify-content: center;
     
   }
@@ -140,8 +143,10 @@ body {
     
   }
   .zwarpar{
-    display: flex;
+    display: grid;
     margin-top: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
     
 
   }
@@ -158,10 +163,9 @@ body {
   .grijze{
     width: 100%;
     background-color: #a8aaab;
-    height: 300px;
     margin-top: 40px;
     display: flex;
-    font-size: 40px;
+    font-size: 25px;
     
   }
   .fotosss{
@@ -263,6 +267,9 @@ body {
     top: 0;
     left: 0;
     z-index: 1;
+}
+p{
+    text-align: justify;
 }
 
 .section-e {
@@ -468,6 +475,40 @@ body {
 }
 
 /* Audio control einde */
+
+
+/* animatie kruisje */
+.blok {
+    height: 50px;
+    position: absolute;
+    width: 60px;
+    right: 90px;
+    background-color: #ecd6e8ba;
+    top: 30px;
+    border-radius: 5px;
+}
+
+#fixt {
+  position: relative;
+  width: calc(100% - 20%);
+  height: calc(100% - 20%);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.pict {
+  object-fit: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+/* einde kruisje /*
 
 
 /* Footer */

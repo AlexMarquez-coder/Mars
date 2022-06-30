@@ -35,3 +35,4 @@ setTimeout(startVideo, 1600)
 document.querySelector('#section-4').scrollIntoView({
 
 });
+
