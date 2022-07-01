@@ -7,7 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Welcome to Mars</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="slider.css" >
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="slider.js">
   <script src="app.js"></script>
   <script src="map.js"></script>
     <meta charset="UTF-8" />
@@ -245,11 +247,35 @@
         <header class="header container">
             <div class="fullscreen-video-wrap">
 
-                <video id="MarsVid" src="../File's/X2Download.com-Marsha Simon & De Wooncoöperatie-(1080p).mp4" type="video/mp4" muted="true" loop="true" autoplay="true"></video>
-                <button onclick="myFunction()">Click me</button>
-            </div>
-            <div id="audio-control" class="muted"><img src="icons8-sound-speaker-50.png" alt=""></div>
-            <div class="header-overlay"></div>
+                <section aria-label="Newwest photos">
+                    <div class="carousel" data-carousel>
+                      <button class="carasoul-button prev " data-carousel-button="prev"> <img class="buttonslider buttonlinks" src="../pijlen/Middel 52.png"></button>
+                      <button class="carasoul-button next" data-carousel-button="next"> <img  class="buttonslider buttonrechts" src="../pijlen/Middel 57.png"></button>
+                        <ul data-slides>
+                            <li class="slide" data-active>
+                                <video id="MarsVid"type="video/mp4" muted="true" loop="true" autoplay="true" style="width: 100%" src="../hoofdvideo.mp4" alt="hoofdvideo #1"></video>
+                            </li>
+                             <li class="slide">
+                                <img style="width: 100%; ;" src="../FotosSlider/AchterdeSchermen.JPG" alt="foto #2">
+                            </li>
+                            <li class="slide">
+                                <img style="width: 100%; ;" src="../FotosSlider/Moderator.JPG" alt="foto #3">
+                            </li>
+                            <li class="slide">
+                                <img  style="width: 100%; ;" src="../FotosSlider/Programmamaker.JPG" alt="foto #4">
+                            </li>
+                            <li class="slide">
+                                <img  style="width: 100%; ;" src="../FotosSlider/WorkshopFacilitator.jpg" alt="foto #5">
+                            </li>
+                        </ul>
+                        <button onclick="myFunction()">Click me</button>
+                    </div>
+                    <div id="audio-control" class="muted"><img src="icons8-sound-speaker-50.png" alt=""></div>
+                    <div class="header-overlay"></div> 
+                    </div>
+                     
+                </section>
+              
         </header>
 
     </section>
